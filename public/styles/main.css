@@ -178,7 +178,7 @@ nav ul li a {
   z-index: 1;
   line-height: 1.7;
   width: 70%;
-  margin: 20px 0
+  margin: 20px 0;
 }
 
 #banner-content button {
@@ -329,7 +329,7 @@ nav ul li a {
   text-align: left;
   margin-bottom: 15px;
   width: 100%;
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .product-content div > p {
@@ -396,8 +396,8 @@ nav ul li a {
 
 #testimonials header {
   font: lighter 18px sans-serif;
-  letter-spacing: .06em;
-  opacity: .8;
+  letter-spacing: 0.06em;
+  opacity: 0.8;
   line-height: 1.8;
   width: 100%;
 }
@@ -405,7 +405,7 @@ nav ul li a {
 #testimonials p {
   margin-top: 28px;
   font: lighter 14px sans-serif;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 #join {
@@ -414,7 +414,7 @@ nav ul li a {
   margin-top: 70px;
 }
 
-#join-background img{
+#join-background img {
   object-fit: fill;
 }
 
@@ -429,7 +429,7 @@ nav ul li a {
   width: 300px;
   border-radius: 5px;
   border: solid #3cc8bb 2px;
-  opacity: .8;
+  opacity: 0.8;
   padding: 1px 1px 1px 20px;
 }
 
@@ -441,8 +441,107 @@ nav ul li a {
 
 #signup-box button {
   width: 150px;
-    background-color: #36adbd;
+  background-color: #36adbd;
   border-radius: 5px;
   color: white;
   font: 11px bolder sans-serif;
+}
+
+#footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  justify-items: center;
+  height: 420px;
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+}
+
+.footerHeader {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: dimgrey;
+  margin-bottom: 20px;
+}
+
+.footerList {
+  margin-top: 10px;
+}
+
+.footerListing {
+  color: darkcyan;
+  font: 12px bold Times;
+  margin: 15px 0;
+}
+
+.footListing:hover {
+  cursor: pointer;
+}
+
+.listContainer {
+  margin-top: 80px;
+  text-align: left;
+}
+
+#footerDivider {
+  border-color: dimgrey;
+  width: 67%;
+  height: 0.01em;
+  display: block;
+  position: relative;
+  bottom: 100px;
+}
+
+#copyright {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  background-color: transparent;
+  width: 67%;
+  position: relative;
+  bottom: 95px;
+}
+
+#copyright div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  float: left;
+}
+
+#copyright div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  right: 0;
+}
+
+#copyright div img {
+  height: 20px;
+  border-radius: 4px;
+  opacity: 0.6;
+  margin-bottom: 3px;
+}
+
+#copyright p {
+  font: 8px sans-serif;
+  color: dimgrey;
+  margin-left: 12px;
+}
+
+.footerButton {
+  background-color: transparent;
+  border: solid 1px darkcyan;
+  border-radius: 3px;
+  color: darkcyan;
+  font: bold 9px Times;
+  height: 20px;
+  width: 75px;
+  margin-left: 10px;
+}
+
+.footerButton:hover {
+  background-color: dimgrey;
+  color: #36adbd;
 }

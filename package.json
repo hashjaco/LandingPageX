@@ -6,7 +6,9 @@
   "scripts": {
     "test": "test",
     "start": "node app.js",
-    "start-dev": "nodemon app.js"
+    "node-dev": "nodemon app.js",
+    "parcel-dev": "parcel public/index.html",
+    "parcel-build": "parcel build public/index.html"
   },
   "repository": {
     "type": "git",
@@ -23,13 +25,13 @@
   },
   "homepage": "https://github.com/hashjaco/LandingPageX#readme",
   "dependencies": {
-    "axios": "^0.19.2",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
     "path": "^0.12.7",
     "prettier": "^1.19.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "parcel-bundler": "^1.12.4"
   }
 }
